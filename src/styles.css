@@ -10,6 +10,7 @@ body {
   align-items: center;
   border-bottom: 1px solid black;
 }
+
 .footer {
   height: 49px;
   display: flex;
@@ -17,11 +18,13 @@ body {
   align-items: center;
   border-top: 1px solid black;
 }
+
 .content {
   min-height: calc(100vh - 100px);
   width: 720px;
   max-width: 100%;
   margin: auto;
+  padding: 20px;
 }
 .section {
   height: 450px;
@@ -31,4 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+.section:first-child {
+  margin-top: 0;
 }
